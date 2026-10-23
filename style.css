@@ -1,0 +1,48 @@
+/* Gaya Halaman */
+body {
+    font-family: "segoe UI", Arial, sans-serif;
+    background-color: #f2f6fc;
+    margin: 40px;
+}
+
+/* Judul Halaman */
+h2{
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+/* Style Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+}
+tr:nth-child(even) td{
+    background-color: #f8fafc;
+}
+tr:hover td{
+    background-color: #e0f2fe;
+}
+
+/* Style pada Sel */ 
+td[colspan] {
+    background-color: #e2e8f0;
+    font-weight: bold;
+}
+td[rowspan] {
+    background-color: #fff9c4;
+}

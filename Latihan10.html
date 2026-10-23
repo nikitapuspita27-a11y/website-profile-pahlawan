@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id"
+<head>
+    <title>Contoh Tabel Colspan dan Rowspan Tingkat Lanjut </title>
+
+    <!-- Menghubungkan file CSS eksternal -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h2> Tabel Colspan dan Rowspan Kompleks </h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th rowspan="3">No</th>
+            <th colspan="3">Identitas Siswa </th>
+            <th colspan="4">Nilai</th>
+            <th rowspan="2" colspan="2">Keterangan</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Kelas</th>
+            <th colspan="2">Teori</th>
+            <th colspan="2">Praktik</th>
+        </tr>
+        <tr>
+            <th>Jurusan</th>
+            <th>Kelas</th>
+            <th>TIK</th>
+            <th>AI</th>
+            <th>TKJ</th>
+            <th>RPL</th>
+            <th>Status</th>
+            <th>Catatan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Andi</td>
+            <td>TKJ</td>
+            <td>XI</td>
+            <td>85</td>
+             <td>90</td>
+              <td>88</td>
+               <td>92</td>
+               <td rowspan="2">Lulus</td>
+               <td rowspan="2">Sangat Baik</td>
+        </tr>
+         <tr>
+            <td>2</td>
+            <td>Budi</td>
+            <td>RPL</td>
+            <td>XII</td>
+            <td>80</td>
+             <td>85</td>
+              <td>87</td>
+               <td>90</td>
+         </tr>
+         <tr>
+            <td colspan="4" align="center">Rata-Rata Nilai </td>
+             <td colspan="4" align="center">88</td>
+             <td colspan="2" align="center">Baik Sekali</td>
+         </tr>
+         <tr>
+            <td colspan="10" align="center">Data Nilai Siswa Semester Ganjil 2025</td>
+         </tr>
+    </table>
+</body>
+</html>
